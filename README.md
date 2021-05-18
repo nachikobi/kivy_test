@@ -21,3 +21,10 @@ $xcrun -sdk iphonesimulator --show-sdk-path
 
 ### Python関係のモジュールをビルド
 $toolchain build kivy
+
+### デモコードをコピー＆実行
+https://github.com/kivy/kivy から example/demo/touchtracer をコピー  
+$toolchain create touchtracer touchtracer  
+touchtracer-iosフォルダが作成される  
+touchtracer-ios/touchtracer.xcodeprojを起動  
+スマホ画面をクリックすると位置情報が表示される
